@@ -1,0 +1,106 @@
+@media screen and (max-width: 400px) {
+    .ACE_BLOCK{
+        height: 350px;
+    }
+}
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    cursor: default;
+}
+body{
+    font-family: "Barlow", serif;
+    background-color: black;
+}
+.ACE_HEADER{
+    height: auto;
+    background-color: rgb(76, 0, 111);
+    padding: 1.4%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.MAIN_BIG_TEXT{
+    color: white;
+    font-size: 6rem;
+}
+.ACE_BLOCK{
+    height: 320px;
+    max-width: 700px;
+    background: linear-gradient(to right, rgb(76, 0, 111), rgb(134, 0, 197));
+    border: 1px solid white;
+    box-shadow: 0px 0px 10px white;
+    border-radius: 5px;
+    padding: 1.4%;
+    font-size: 1.5rem;
+}
+.block_big_text{
+    color: white;
+    font-size: 3rem;
+    font-weight: 600;
+}
+.block_title{
+    background-color: rgb(59, 0, 80);
+    color: gray;
+    padding: 1%;
+    border-radius: 2px;
+    float: left;
+    border-radius: 4px;
+}
+.block_text{
+    background-color: rgb(59, 0, 80);
+    color: white;
+    padding: 1%;
+    border-radius: 2px;
+    float: left;
+    max-width: 60%;
+    font-size: 1.3rem;
+    border-radius: 4px;
+}
+.block_text > a:hover{
+    color: rgb(109, 99, 255);
+}
+.seemore{
+    background-color: white;
+    color: black;
+    padding: 0.3%;
+    transition: 0.2s ease;
+    font-size: 1.5rem;
+}
+.seemore:hover{
+    color: white;
+    background-color: black;
+}
+.footer{
+    background-color: rgb(76, 0, 111);
+    height: auto;
+    padding: 10px;
+}
+.ACE_HEADER > .right > a{
+    color: white;
+    font-size: 2.5rem;
+    margin: 0px 7px;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+.ACE_HEADER > .right > a:hover{
+    color: rgb(255, 113, 113);
+}
+@keyframes rotate{
+    from{transform: rotateY(0deg)}
+    to{transform: rotateY(360deg)}
+}
+.rotateImg{
+    animation: rotate 4s linear infinite;
+    background-color: white;
+    border-radius: 100px;
+    box-shadow: 0px 0px 10px white;
+}
+.post{
+    background-color: rgb(59, 0, 80);
+    margin: 1.4%;
+    padding: 1.4%;
+}
